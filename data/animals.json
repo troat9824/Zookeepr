@@ -108,15 +108,6 @@
         "hungry"
       ],
       "id": "10"
-    },
-    {
-      "name": "Larry",
-      "species": "123",
-      "diet": "omnivore",
-      "personalityTraits": [
-        "hungry"
-      ],
-      "id": "11"
     }
   ]
 }
