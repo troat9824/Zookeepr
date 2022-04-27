@@ -1,5 +1,5 @@
 {
-  "animals": [
+  "animalsArray": [
     {
       "id": "0",
       "name": "Spindle",
@@ -108,6 +108,16 @@
         "hungry"
       ],
       "id": "10"
+    },
+    {
+      "name": "Ozzy",
+      "species": "dog",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry",
+        "loving"
+      ],
+      "id": "11"
     }
   ]
 }

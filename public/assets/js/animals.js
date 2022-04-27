@@ -30,6 +30,7 @@ const getAnimals = (formData = {}) => {
   });
 
   console.log(queryUrl);
+
   fetch(queryUrl)
     .then(response => {
       if (!response.ok) {
@@ -40,7 +41,7 @@ const getAnimals = (formData = {}) => {
     .then(animalData => {
       console.log(animalData);
       printResults(animalData);
-    })
+    });
 };
 
 const handleGetAnimalsSubmit = event => {
